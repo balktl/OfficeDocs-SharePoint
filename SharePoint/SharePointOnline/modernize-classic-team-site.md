@@ -77,7 +77,7 @@ For more info about this cmdlet, see [Enable-SPOCommSite](/powershell/module/sha
 2. In Windows 10, run the following commands in PowerShell:
 
     ```PowerShell
-    Install-Module SharePointPnPPowerShellOnline
+    Install-Module PnP.PowerShell
     Connect-PnPOnline –Url <Url of Targetsite> –Credentials (Get-Credential)
     Enable-PnPCommSite
     ```
